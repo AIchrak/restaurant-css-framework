@@ -3,52 +3,23 @@
     box-sizing: border-box;
     font-family: 'Questrial', sans-serif;
 }
-.navbar-brand img {
-    width: 120px; 
-    height: mr-auto;
-}
-.jumbotron {
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #f8f9fa;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.jumbotron h1 {
-    color: brown;
-}
-.card {
-    margin-bottom: 20px;
-}
 .text-center a {
     text-decoration: none;
 }
-@media only screen and (min-width: 600px) {
-    .navbar-nav {
-        margin-left: 400px;
-    }
-    .nav-item {
-        padding-left: 30px;
-        align-self: center;
-        text-align: center;
-    }
-    .navbar-brand img {
-        width: 200px; 
-        height: mr-auto;
-    }
-    .container {
-        display: grid;
-        justify-content: center;
-    }
-    .jumbotron {
-        padding-left: 25px;
-        align-items: flex-start;
-    }
-    
+/*.accordion-header {
+    border: 2px solid brown;
+    background-color: brown;
+}*/
+#carouselExampleDark {
+    width: 400px;
+    height: auto;
+}
+#carouselExampleInterval{
+    width: minmax(auto,600px);
+    height: auto;
 }
 
 
-/*[class*="col-"]{
-}*/
+/* @media only screen and (min-width: 600px) {
+
+
