@@ -15,11 +15,30 @@
     height: auto;
 }
 #carouselExampleInterval{
-    width: minmax(auto,600px);
+    width: 500px;
     height: auto;
+}
+#imgrot{
+    transition: width 2s, height 2s, transform 2s;
+}
+#imgrot:hover {
+    width: auto;
+    height: 600px;
+    transform: rotate(360deg);
 }
 
 
+
+
 /* @media only screen and (min-width: 600px) {
-
-
+border: 2px solid yellow;
+.pagination .active a:hover
+{
+    background-color: green;
+}
+.accordion-item h2 {
+    background-color: green;
+}
+.accordion-header.collapsed {
+    background: green;
+}
